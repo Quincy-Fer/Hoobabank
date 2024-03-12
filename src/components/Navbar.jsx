@@ -18,6 +18,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
@@ -28,7 +29,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 my-2 w-full sidebar`}
+          } p-6 bg-black-gradient absolute top-20 right-0 my-2 w-full sidebar `}
         >
           <ul className="flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
