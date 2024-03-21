@@ -26,6 +26,10 @@ const Billing = () => {
           adipisci nesciunt natus consectetur ipsum, rem totam maxime laborum id
           aspernatur?
         </p>
+        <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+          <img src={apple} alt="app store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"/>
+          <img src={google} alt="google store" className="w-[128px] h-[42px] object-contain  cursor-pointer"/>
+        </div>
       </div>
     </section>
   );
