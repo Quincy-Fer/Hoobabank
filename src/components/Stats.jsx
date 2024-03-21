@@ -7,9 +7,16 @@ const Stats = () => {
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}
     >
       {stats.map((stat) => (
-        <div key={stat.id} className="">
-          <h4>{stat.value} </h4>
-          <p>{stat.title}</p>
+        <div
+          key={stat.id}
+          className="flex-1 flex justify-start items-center flex-row m-3"
+        >
+          <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] text-white leading-[43px]">
+            {stat.value}
+          </h4>
+          <p className="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] text-gradient leading-[21px] ml-3 uppercase">
+            {stat.title}
+          </p>
         </div>
       ))}
     </section>
