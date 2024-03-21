@@ -10,7 +10,22 @@ const Billing = () => {
           alt="billing"
           className="w-[100%] h-[100%] relative z-[5]"
         />
-        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white_gradient"></div>
+
+        {/* gradient start */}
+        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+        <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+        {/* gradient end */}
+      </div>
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+          Easily Control Your <br className="sm:block hidden" /> Billing
+        </h2>
+        <p className={`${styles.paragraph} mt-5 max-w-[470px]`}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          dolorem adipisci quae aliquam molestias dolor iure vel! Neque nostrum
+          adipisci nesciunt natus consectetur ipsum, rem totam maxime laborum id
+          aspernatur?
+        </p>
       </div>
     </section>
   );
