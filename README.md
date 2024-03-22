@@ -1,4 +1,4 @@
-### Nike Website.
+### Fintech Website: Hoobabank.
 
 This website serves as a template for a fintech website. The design was made by one week wonders https://dribbble.com/OWWStudio. The website was made following a tutorial by JavaScript Mastery in order to learn how to structure a react project.
 
