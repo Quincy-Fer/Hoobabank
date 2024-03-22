@@ -18,7 +18,20 @@ const Footer = () => {
         </div>
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
-            <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">lala</div>
+            <div
+              key={footerLink.key}
+              className="flex flex-col ss:my-0 my-4 min-w-[150px]"
+            >
+              <h4 className="font-poppins font-semibold text-[18px] leading-[27px] text-white mb-6">{footerLink.title}</h4>
+              <ul>
+                {footerLink.links.map((link, index) => (
+                  <li
+                    className={`font-poppins font-normal text-[16px] leading-[24px]
+                     text-dimWhite hover:text-secondary cursor-pointer mb-2`}
+                  >{link.name}</li>
+                ))}
+              </ul>
+            </div>
           ))}
         </div>
       </div>
