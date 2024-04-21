@@ -11,5 +11,6 @@ This website serves as a template for a fintech website. The design was made by 
 
 - Clone the repository --> Git clone and cd into directory
 - Install dependecies --> npm install
-- Run the dev server --> npm run dev
-- Open the app in your browser --> Visit http://localhost:5173/ in your browser
+- Run the build --> npm run build
+- See preview of final build --> npm run preview
+- Visit http://localhost:4173/ in your browser
